@@ -1,4 +1,4 @@
-FROM arm64v8/php:8.2.3-fpm-alpine3.17
+FROM php:8.2.3-fpm-alpine3.17
 
 # Variables
 ENV TZ=UTC

@@ -3,7 +3,7 @@ version: "3.1"
 services:
 
   nginx:
-    image: arm64v8/nginx:1.23-alpine
+    image: nginx:1.23-alpine
     container_name: godaddy_test_nginx
     working_dir: /code
     restart: always
@@ -32,7 +32,7 @@ services:
       - godaddy_test_db
 
   mysql:
-    image: arm64v8/mysql:8.0.32
+    image: mysql:8.0.32
     container_name: godaddy_test_mysql
     restart: always
     environment:
