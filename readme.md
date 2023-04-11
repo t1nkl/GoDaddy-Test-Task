@@ -1,8 +1,13 @@
-Write Rest API application with one UI page "dashboard" for the book library which allows to track what books they have.
+# GoDaddy test task
 
+
+
+Write Rest API application with one UI page "dashboard" for the book library which allows to track what books they have
 (only books, without any other dependencies like clients, etc.)
 
-## Acceptance  criteria:
+
+
+## Acceptance criteria:
 
 ### Required
 * Application should use the latest PHP version
@@ -18,8 +23,7 @@ Write Rest API application with one UI page "dashboard" for the book library whi
 * Application should have an automatic setup process with fixtures and migrations
 * Application should be built using Docker container (docker-compose)
 
-
-## Book model:
+### Book model:
 * Title (string)
 * Publisher (string)
 * Author (string)
@@ -27,7 +31,6 @@ Write Rest API application with one UI page "dashboard" for the book library whi
 * Book publication (date)
 * Amount of words in the book (int)
 * Book price in US Dollars
-
 
 To run the application, you need to run the following commands:
 ``make run``
